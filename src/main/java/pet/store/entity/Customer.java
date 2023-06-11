@@ -20,11 +20,8 @@ public class Customer {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long customerId;
-	
 	private String customerFirstName;
-	
 	private String customerLastName;
-	
 	private String customerEmail;
 	
 	@EqualsAndHashCode.Exclude
